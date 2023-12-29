@@ -433,4 +433,24 @@ body {
   outline: none;
   border-radius: 8px;
   font-weight: bold;
+}
+.main .contact {
+  margin: 20px 0;
+  padding: 40px 120px;
+  background-color: #ebebeb;
+}
+.main .contact div .branches {
+  text-align: left;
+}
+.main .contact div .branches > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: start;
+      -ms-flex-align: start;
+          align-items: start;
+  gap: 20px;
+  font-weight: 600;
 }/*# sourceMappingURL=main.css.map */
