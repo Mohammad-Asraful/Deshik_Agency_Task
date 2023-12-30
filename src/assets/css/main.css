@@ -323,7 +323,10 @@ body {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  gap: 10px;
+  gap: 20px;
+}
+.main .trending_holidays > div > .trending_card {
+  width: 100%;
 }
 .main .trending_holidays > div > .trending_card img {
   width: 100%;
@@ -437,7 +440,7 @@ body {
 }
 .main .contact_section {
   margin: 20px 0;
-  padding: 40px 120px;
+  padding: 40px 0px 40px 120px;
   background-color: #ebebeb;
   text-align: left;
 }
@@ -495,6 +498,9 @@ body {
 .main .contact_section > div .head_follow_contact .head_follow .head_office p {
   font-weight: 600;
 }
+.main .contact_section > div .head_follow_contact .head_follow .follow_us {
+  padding-right: 120px;
+}
 .main .contact_section > div .head_follow_contact .head_follow .follow_us .icon_div {
   padding-top: 25px;
   display: -webkit-box;
@@ -543,13 +549,13 @@ body {
 }
 .main .contact_section > div .head_follow_contact .contact_us > div .horizontal_line {
   height: 2px;
-  width: 700px;
+  width: 100%;
   padding: 0;
   margin: 0;
   background-color: #ffdf01;
 }
 .main footer {
-  padding: 50px 10px 10px 10px;
+  padding: 50px 20px 10px 20px;
   background-color: #ffdf01;
 }
 .main footer > div .footer_header {
@@ -572,6 +578,7 @@ body {
   gap: 30px;
 }
 .main footer > div .footer_text .footer_line_div {
+  font-size: 20px;
   height: 100%;
   font-weight: bold;
   display: -webkit-box;
@@ -589,7 +596,13 @@ body {
   gap: 10px;
 }
 .main footer > div .footer_text .footer_line_div .footer_line {
-  width: 2px;
-  height: 10px;
+  width: 1px;
+  height: 15px;
   background: #000;
+}
+.main footer > div .footer_text .footer_email {
+  font-size: 20px;
+}
+.main footer > div .footer_text .footer_name > h2 {
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */

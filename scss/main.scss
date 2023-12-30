@@ -41,6 +41,7 @@ body {
     right: 0;
     z-index: 50;
     background-color: #171445ce;
+
     div {
       display: flex;
       align-items: center;
@@ -279,9 +280,10 @@ body {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: 10px;
+      gap: 20px;
 
       > .trending_card {
+        width: 100%;
         img {
           width: 100%;
         }
@@ -400,7 +402,7 @@ body {
   //   Contact us end
   .contact_section {
     margin: 20px 0;
-    padding: 40px 120px;
+    padding: 40px 0px 40px 120px;
     background-color: #ebebeb;
     text-align: left;
 
@@ -443,6 +445,7 @@ body {
           }
 
           .follow_us {
+            padding-right: 120px;
             .icon_div {
               padding-top: 25px;
               display: flex;
@@ -483,7 +486,7 @@ body {
 
             .horizontal_line {
               height: 2px;
-              width: 700px;
+              width: 100%;
               padding: 0;
               margin: 0;
               background-color: #ffdf01;
@@ -497,7 +500,7 @@ body {
 
   //   Footer start
   footer {
-    padding: 50px 10px 10px 10px;
+    padding: 50px 20px 10px 20px;
     background-color: #ffdf01;
 
     > div {
@@ -512,6 +515,7 @@ body {
         gap: 30px;
 
         .footer_line_div {
+          font-size: 20px;
           height: 100%;
           font-weight: bold;
           display: flex;
@@ -520,9 +524,19 @@ body {
           gap: 10px;
 
           .footer_line {
-            width: 2px;
-            height: 10px;
+            width: 1px;
+            height: 15px;
             background: #000;
+          }
+        }
+
+        .footer_email {
+          font-size: 20px;
+        }
+
+        .footer_name {
+          > h2 {
+            font-weight: bold;
           }
         }
       }
