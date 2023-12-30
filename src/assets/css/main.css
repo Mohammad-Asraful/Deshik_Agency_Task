@@ -151,7 +151,7 @@ body {
   font-weight: bold;
 }
 .main .holiday_section {
-  padding: 30px 10px;
+  padding: 30px 100px;
 }
 .main .holiday_section .holiday_images {
   display: -webkit-box;
@@ -425,6 +425,7 @@ body {
 }
 .main .book_section div p {
   margin-bottom: 40px;
+  margin-top: 40px;
 }
 .main .book_section div div button {
   padding: 10px 20px;
@@ -434,15 +435,34 @@ body {
   border-radius: 8px;
   font-weight: bold;
 }
-.main .contact {
+.main .contact_section {
   margin: 20px 0;
   padding: 40px 120px;
   background-color: #ebebeb;
-}
-.main .contact div .branches {
   text-align: left;
 }
-.main .contact div .branches > div {
+.main .contact_section > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 20px;
+}
+.main .contact_section > div .branches {
+  text-align: left;
+}
+.main .contact_section > div .branches > h5 {
+  font-weight: bold;
+}
+.main .contact_section > div .branches > div {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -453,4 +473,123 @@ body {
           align-items: start;
   gap: 20px;
   font-weight: 600;
+}
+.main .contact_section > div .head_follow_contact .head_follow {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 50px;
+}
+.main .contact_section > div .head_follow_contact .head_follow h5 {
+  font-weight: bold;
+}
+.main .contact_section > div .head_follow_contact .head_follow .head_office p {
+  font-weight: 600;
+}
+.main .contact_section > div .head_follow_contact .head_follow .follow_us .icon_div {
+  padding-top: 25px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 40px;
+  font-size: 22px;
+}
+.main .contact_section > div .head_follow_contact .contact_us {
+  padding-top: 30px;
+}
+.main .contact_section > div .head_follow_contact .contact_us > h5 {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.main .contact_section > div .head_follow_contact .contact_us > div > div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+  padding-bottom: 10px;
+}
+.main .contact_section > div .head_follow_contact .contact_us > div > div :first-child,
+.main .contact_section > div .head_follow_contact .contact_us > div > div :last-child {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 600;
+  gap: 15px;
+}
+.main .contact_section > div .head_follow_contact .contact_us > div > div .vertical_line {
+  height: 50px;
+  width: 2px;
+  background-color: #ffdf01;
+}
+.main .contact_section > div .head_follow_contact .contact_us > div .horizontal_line {
+  height: 2px;
+  width: 700px;
+  padding: 0;
+  margin: 0;
+  background-color: #ffdf01;
+}
+.main footer {
+  padding: 50px 10px 10px 10px;
+  background-color: #ffdf01;
+}
+.main footer > div .footer_header {
+  text-align: center;
+}
+.main footer > div .footer_text {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: end;
+      -ms-flex-align: end;
+          align-items: end;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 30px;
+}
+.main footer > div .footer_text .footer_line_div {
+  height: 100%;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+}
+.main footer > div .footer_text .footer_line_div .footer_line {
+  width: 2px;
+  height: 10px;
+  background: #000;
 }/*# sourceMappingURL=main.css.map */

@@ -130,7 +130,7 @@ body {
 
   //   holiday section start
   .holiday_section {
-    padding: 30px 10px;
+    padding: 30px 100px;
     .holiday_images {
       display: flex;
       justify-items: start;
@@ -380,6 +380,7 @@ body {
 
       p {
         margin-bottom: 40px;
+        margin-top: 40px;
       }
 
       div {
@@ -397,14 +398,24 @@ body {
   //   Book now end
 
   //   Contact us end
-  .contact {
+  .contact_section {
     margin: 20px 0;
     padding: 40px 120px;
     background-color: #ebebeb;
+    text-align: left;
 
-    div {
+    > div {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      gap: 20px;
+
       .branches {
         text-align: left;
+
+        > h5 {
+          font-weight: bold;
+        }
 
         > div {
           display: flex;
@@ -413,7 +424,109 @@ body {
           font-weight: 600;
         }
       }
+
+      .head_follow_contact {
+        .head_follow {
+          display: flex;
+          align-items: start;
+          justify-content: space-between;
+          gap: 50px;
+
+          h5 {
+            font-weight: bold;
+          }
+
+          .head_office {
+            p {
+              font-weight: 600;
+            }
+          }
+
+          .follow_us {
+            .icon_div {
+              padding-top: 25px;
+              display: flex;
+              align-items: center;
+              gap: 40px;
+              font-size: 22px;
+            }
+          }
+        }
+
+        .contact_us {
+          padding-top: 30px;
+          > h5 {
+            font-weight: bold;
+            padding-bottom: 10px;
+          }
+
+          > div {
+            > div {
+              display: flex;
+              align-items: center;
+              gap: 50px;
+              padding-bottom: 10px;
+
+              :first-child,
+              :last-child {
+                display: flex;
+                font-weight: 600;
+                gap: 15px;
+              }
+
+              .vertical_line {
+                height: 50px;
+                width: 2px;
+                background-color: #ffdf01;
+              }
+            }
+
+            .horizontal_line {
+              height: 2px;
+              width: 700px;
+              padding: 0;
+              margin: 0;
+              background-color: #ffdf01;
+            }
+          }
+        }
+      }
     }
   }
   //   Contact us end
+
+  //   Footer start
+  footer {
+    padding: 50px 10px 10px 10px;
+    background-color: #ffdf01;
+
+    > div {
+      .footer_header {
+        text-align: center;
+      }
+      .footer_text {
+        margin-top: 50px;
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 30px;
+
+        .footer_line_div {
+          height: 100%;
+          font-weight: bold;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 10px;
+
+          .footer_line {
+            width: 2px;
+            height: 10px;
+            background: #000;
+          }
+        }
+      }
+    }
+  }
+  //   Footer end
 }
