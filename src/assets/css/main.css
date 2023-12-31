@@ -173,17 +173,17 @@ body {
 .main .holiday_section .holiday_images :last-child img {
   height: 50%;
 }
-.main .holiday_section .holida_text_box {
+.main .holiday_section .holiday_text_box {
   padding: 20px 0;
 }
-.main .holiday_section .holida_text_box h3 {
+.main .holiday_section .holiday_text_box h3 {
   text-align: start;
   font-weight: bold;
 }
-.main .holiday_section .holida_text_box .holiday_description {
+.main .holiday_section .holiday_text_box .holiday_description {
   padding: 10px 100px;
 }
-.main .holiday_section .holida_text_box .holiday_description .top_line {
+.main .holiday_section .holiday_text_box .holiday_description .top_line {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -197,12 +197,12 @@ body {
       -ms-flex-pack: end;
           justify-content: end;
 }
-.main .holiday_section .holida_text_box .holiday_description .top_line div {
+.main .holiday_section .holiday_text_box .holiday_description .top_line div {
   background-color: #f6b132;
   width: 300px;
   height: 2px;
 }
-.main .holiday_section .holida_text_box .holiday_description .line_desc {
+.main .holiday_section .holiday_text_box .holiday_description .line_desc {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -217,12 +217,12 @@ body {
           justify-content: start;
   gap: 15px;
 }
-.main .holiday_section .holida_text_box .holiday_description .line_desc .left_line {
+.main .holiday_section .holiday_text_box .holiday_description .line_desc .left_line {
   background-color: #f6b132;
   width: 6px;
   height: 100px;
 }
-.main .holiday_section .holida_text_box .holiday_description .line_desc .description {
+.main .holiday_section .holiday_text_box .holiday_description .line_desc .description {
   text-align: justify;
 }
 .main .enquire_section {
@@ -268,26 +268,21 @@ body {
   margin-bottom: 20px;
 }
 .main .popular_package .package_main_div {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  gap: 20px;
+  -webkit-columns: 2;
+     -moz-columns: 2;
+          columns: 2;
+  -webkit-column-gap: 16px;
+     -moz-column-gap: 16px;
+          column-gap: 16px;
 }
 .main .popular_package .package_main_div > div {
   position: relative;
-  width: 100%;
-  height: 100%;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .main .popular_package .package_main_div > div img {
   width: 100%;
-  height: 100%;
+  border-radius: 10px;
 }
 .main .popular_package .package_main_div > div > div {
   margin: 0;
@@ -352,10 +347,6 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: start;
   -webkit-justify-content: start;
       -ms-flex-pack: start;
