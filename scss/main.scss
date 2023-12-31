@@ -10,6 +10,8 @@
   text-decoration: none;
 }
 
+$dark_yellow: #ffdf01;
+
 @mixin yellow_btn() {
   background-color: #ffdf01;
   border: none;
@@ -229,11 +231,6 @@ body {
       div {
         button {
           padding: 10px 20px;
-          //   background-color: #ffdf01;
-          //   border: none;
-          //   outline: none;
-          //   border-radius: 8px;
-          //   font-weight: bold;
           @include yellow_btn();
         }
       }
@@ -326,11 +323,7 @@ body {
           .trending_button {
             button {
               padding: 7px 50px;
-              background-color: #ffdf01;
-              border: none;
-              outline: none;
-              border-radius: 8px;
-              font-weight: bold;
+              @include yellow_btn();
             }
           }
         }
@@ -374,11 +367,7 @@ body {
           .event_button {
             button {
               padding: 7px 50px;
-              background-color: #ffdf01;
-              border: none;
-              outline: none;
-              border-radius: 8px;
-              font-weight: bold;
+              @include yellow_btn();
             }
           }
         }
@@ -409,11 +398,7 @@ body {
       div {
         button {
           padding: 10px 20px;
-          background-color: #ffdf01;
-          border: none;
-          outline: none;
-          border-radius: 8px;
-          font-weight: bold;
+          @include yellow_btn();
         }
       }
     }
